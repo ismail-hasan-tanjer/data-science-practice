@@ -36,12 +36,14 @@ This repository is created for practicing and showcasing real-world Data Science
 
 ## 📈 Sample Projects
 
-| Project Title                  | Description                                              | Status    |
-|-------------------------------|----------------------------------------------------------|-----------|
-| Loan Default Prediction        | Classification model to predict loan defaulters         | ✅ Done    |
-| Stock Market Analysis          | Time series analysis and forecasting                    | 🛠️ In Progress |
-| Titanic Survival Prediction    | Classic ML classification example using Titanic dataset | ✅ Done    |
-| House Price Prediction         | Regression model with advanced feature engineering      | 🛠️ In Progress |
+| Project Title                       | Description                                                                 | Technologies Used                         | Status          |
+| ----------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------- | --------------- |
+| Heart Disease Analysis & Prediction | Classification project to predict the risk of heart disease in patients     | Pandas, Scikit-learn, Matplotlib, EDA     | ✅ Done          |
+| Loan Default Prediction             | Machine learning model to classify loan defaulters using financial data     | Pandas, Scikit-learn, Logistic Regression | ✅ Done          |
+| Stock Market Analysis               | Time series forecasting and trend analysis of stock prices                  | Pandas, Matplotlib, ARIMA, Prophet        | 🛠️ In Progress |
+| Titanic Survival Prediction         | Predicting passenger survival on the Titanic dataset (Kaggle classic)       | Pandas, Scikit-learn, Random Forest       | ✅ Done          |
+| House Price Prediction              | Predicting house prices using regression and feature engineering techniques | Pandas, Scikit-learn, XGBoost, Seaborn    | 🛠️ In Progress |
+
 
 ---
 
