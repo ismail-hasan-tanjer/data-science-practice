@@ -1,5 +1,13 @@
+# 📊 Data Science Practice
+
+Welcome to the **Data Science Practice** repository!  
+This repository is created for practicing and showcasing real-world Data Science concepts, tools, and projects. It is intended for learners, professionals, and contributors interested in data-driven problem solving.
 
 ---
+
+## 📁 Repository Structure
+
+
 
 ## 🧠 Key Topics Covered
 
