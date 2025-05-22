@@ -14,4 +14,8 @@ Fill with mean/median/mode: df.fillna(df['column'].mean())
 Forward/Backward Fill: df.fillna(method='ffill') or bfill'''
 
 
+'''
+2. Removing Duplicates
+Having the same information multiple times clutters the data: '''
+
 
