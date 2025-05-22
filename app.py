@@ -18,4 +18,8 @@ Forward/Backward Fill: df.fillna(method='ffill') or bfill'''
 2. Removing Duplicates
 Having the same information multiple times clutters the data: '''
 
+#code 
+
+df.drop_duplicates(inplace=True)
+
 
