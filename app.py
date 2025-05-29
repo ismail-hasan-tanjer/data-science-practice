@@ -51,4 +51,8 @@ Machine learning models only understand numerical input. So:
     
     
     
+Label Encoding: eg Male = 0, Female = 1
+
+One-Hot Encoding: pd.get_dummies(df['column'])
+    
     
