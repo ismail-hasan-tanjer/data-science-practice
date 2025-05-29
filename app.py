@@ -44,3 +44,11 @@ df['date'] = pd.to_datetime(df['date'])
 df['category'] = df['category'].astype('category')
 
 
+
+5. Encoding Categorical Variables
+
+Machine learning models only understand numerical input. So:
+    
+    
+    
+    
