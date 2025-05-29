@@ -22,4 +22,15 @@ Having the same information multiple times clutters the data: '''
 
 df.drop_duplicates(inplace=True)
 
+'''
+3. Cleaning Text Data
+To clean text or categorical data:
+
+Case conversion: .lower(), .upper()
+
+Removing special characters: Using RegEx
+
+Removing white spaces: .strip()
+
+Tokenization / Lemmatization (in NLP projects)'''
 
