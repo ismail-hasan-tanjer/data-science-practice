@@ -38,3 +38,9 @@ Tokenization / Lemmatization (in NLP projects)'''
 
 4. Converting Data Types
 Using the correct type increases performance and accuracy:
+    
+#code 
+df['date'] = pd.to_datetime(df['date'])
+df['category'] = df['category'].astype('category')
+
+
