@@ -97,7 +97,19 @@ Exploratory Data Analysis (EDA)
 This is an important step that helps in understanding the insights and structure within the data.
 The detailed explanation and steps of EDA are given below:
     
-    
+Exploratory Data Analysis (EDA)
+EDA is a process where data visualization, statistics, and various analysis methods are used to gain a deeper understanding of a dataset. In this step, you will understand:
+
+Which features are important
+
+Which features are related
+
+What kind of outliers or distributions are there
+
+How the model will perform can be predicted
+
+
+
     
 
 
