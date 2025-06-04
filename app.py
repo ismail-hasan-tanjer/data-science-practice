@@ -71,3 +71,12 @@ from sklearn.preprocessing import MinMaxScaler
 
 7. Outlier Detection & Removal
 Outliers or exceptional values ​​can reduce the accuracy of the model:
+    
+    
+Z-score method
+
+IQR method
+
+Boxplot visualization
+
+
