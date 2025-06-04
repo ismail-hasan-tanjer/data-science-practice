@@ -134,6 +134,9 @@ df['gender'].value_counts().plot(kind='bar')
 
 
 
+
+
+
    
     
 
