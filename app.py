@@ -85,10 +85,20 @@ Boxplot visualization
 
 Data is split to train the model:
     
-#codiing     
+#code    
+ 
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
+#*********************Very Important"
+
+Exploratory Data Analysis (EDA)
+
+This is an important step that helps in understanding the insights and structure within the data.
+The detailed explanation and steps of EDA are given below:
+    
+    
+    
 
 
     
