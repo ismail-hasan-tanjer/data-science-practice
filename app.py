@@ -55,4 +55,17 @@ Label Encoding: eg Male = 0, Female = 1
 
 One-Hot Encoding: pd.get_dummies(df['column'])
     
-    
+
+6. Feature Scaling
+
+The model is confused if the features are too small or too large compared to each other. So:
+
+Standardization: (Z-score)
+
+from sklearn.preprocessing import StandardScaler
+
+Normalization: Scaling between 0 and 1
+
+from sklearn.preprocessing import MinMaxScaler
+
+
