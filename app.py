@@ -106,7 +106,17 @@ Which features are related
 
 What kind of outliers or distributions are there
 
-How the model will perform can be predicted
+How the model will perform can be predicted.
+
+
+1. Basic Information Check
+
+df.info()
+df.describe()
+df.head()
+df.tail()
+
+
 
 
 
