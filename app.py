@@ -69,3 +69,5 @@ Normalization: Scaling between 0 and 1
 from sklearn.preprocessing import MinMaxScaler
 
 
+7. Outlier Detection & Removal
+Outliers or exceptional values ​​can reduce the accuracy of the model:
