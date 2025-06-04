@@ -122,11 +122,16 @@ df.tail()
 2. Univariate Analysis
 To look at the distribution of a single variable:
  
- Numerical Data:
+ #Numerical Data:
 #code   
 import seaborn as sns
 sns.histplot(df['age'])
 sns.boxplot(x=df['salary'])
+
+#Categorical Data:
+df['gender'].value_counts().plot(kind='bar')
+
+
 
 
    
