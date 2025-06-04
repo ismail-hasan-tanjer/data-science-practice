@@ -116,6 +116,14 @@ df.describe()
 df.head()
 df.tail()
 
+=> You can learn about data type, min, max, standard deviation, missing values, etc.
+
+
+2. Univariate Analysis
+To look at the distribution of a single variable:
+    
+    
+
 
 
 
