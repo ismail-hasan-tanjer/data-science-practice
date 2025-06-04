@@ -80,3 +80,10 @@ IQR method
 Boxplot visualization
 
 
+8. Data Splitting
+
+
+Data is split to train the model:
+    
+    
+    
