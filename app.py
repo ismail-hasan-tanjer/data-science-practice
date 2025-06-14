@@ -132,6 +132,11 @@ sns.boxplot(x=df['salary'])
 df['gender'].value_counts().plot(kind='bar')
 
 
+3. Bivariate/Multivariate Analysis
+To see the relationship between two or more variables:
+
+
+
 
 
 
