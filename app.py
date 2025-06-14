@@ -149,7 +149,13 @@ Pairplot (Multiple feature relationships):
 sns.pairplot(df)
 
 
+4. Correlation Analysis
+To understand the relationship between data features:
 
+code-
+df.corr()
+
+➡️ This shows which features are strongly correlated (positive/negative) with each other.
 
 
 
