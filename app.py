@@ -136,6 +136,20 @@ df['gender'].value_counts().plot(kind='bar')
 To see the relationship between two or more variables:
 
 
+Scatter Plot (for two numeric variables):
+
+sns.scatterplot(x='age', y='salary', data=df)
+
+Heatmap (Correlation Matrix):
+    
+sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
+
+Pairplot (Multiple feature relationships):
+    
+sns.pairplot(df)
+
+
+
 
 
 
