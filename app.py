@@ -177,6 +177,16 @@ df.groupby('gender')['income'].mean()
 Determine outliers using boxplot or Z-score.
 
 
+✅ Summary
+The purpose of EDA is to:
+
+Understand the nature and structure of data
+
+Identify important patterns, trends, and relationships
+
+Create decision support through data visualization
+
+Assist in feature engineering by understanding which features need to be discarded or retained
 
 
    
