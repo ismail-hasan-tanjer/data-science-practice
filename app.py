@@ -257,6 +257,17 @@ plt.title('Height vs Weight')
 plt.xlabel('Height')
 plt.ylabel('Weight')
 plt.show()
+
+
+✅ e) Pie Chart
+
+
+labels = ['Male', 'Female']
+sizes = [60, 40]
+plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90)
+plt.axis('equal')
+plt.title('Gender Distribution')
+plt.show()
     
     
     
