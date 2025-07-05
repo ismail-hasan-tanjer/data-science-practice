@@ -189,7 +189,12 @@ Create decision support through data visualization
 Assist in feature engineering by understanding which features need to be discarded or retained
 
 
-   
+
+📊 Data Visualization using Matplotlib
+Matplotlib is the most popular and basic data visualization library in Python. With its help, you can create line plots, bar charts, histograms, scatter plots, etc.
+
+
+
     
 
 
