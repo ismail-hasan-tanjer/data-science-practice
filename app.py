@@ -216,7 +216,18 @@ plt.ylabel("Y-axis")
 plt.show()
 
 
+3. Common Plot Types
 
+
+✅ a) Line Plot
+
+
+plt.plot(df['year'], df['revenue'])
+plt.title('Yearly Revenue')
+plt.xlabel('Year')
+plt.ylabel('Revenue')
+plt.grid(True)
+plt.show()
 
 
 
