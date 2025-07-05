@@ -240,7 +240,14 @@ plt.title('Category Distribution')
 plt.show()
 
 
+✅ c) Histogram
 
+
+plt.hist(df['age'], bins=10, color='green')
+plt.title('Age Distribution')
+plt.xlabel('Age')
+plt.ylabel('Frequency')
+plt.show()
     
 
 
