@@ -250,7 +250,13 @@ plt.ylabel('Frequency')
 plt.show()
     
 
+✅ d) Scatter Plot
 
+plt.scatter(df['height'], df['weight'], color='red')
+plt.title('Height vs Weight')
+plt.xlabel('Height')
+plt.ylabel('Weight')
+plt.show()
     
     
     
