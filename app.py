@@ -189,13 +189,33 @@ Create decision support through data visualization
 Assist in feature engineering by understanding which features need to be discarded or retained
 
 
+#Matplotlib
 
 📊 Data Visualization using Matplotlib
 Matplotlib is the most popular and basic data visualization library in Python. With its help, you can create line plots, bar charts, histograms, scatter plots, etc.
 
 
+🔧 1. Installation (if not installed yet)
 
+pip install matplotlib
     
+
+🧱 2. Basic Structure
+
+
+import matplotlib.pyplot as plt
+
+# Example data
+x = [1, 2, 3, 4]
+y = [10, 20, 25, 30]
+
+plt.plot(x, y)
+plt.title("Line Plot Example")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.show()
+
+
 
 
 
