@@ -230,6 +230,15 @@ plt.grid(True)
 plt.show()
 
 
+✅ b) Bar Chart
+
+
+categories = ['A', 'B', 'C']
+values = [30, 50, 20]
+plt.bar(categories, values, color='skyblue')
+plt.title('Category Distribution')
+plt.show()
+
 
 
     
