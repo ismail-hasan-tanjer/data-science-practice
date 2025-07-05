@@ -173,7 +173,8 @@ df.groupby('gender')['income'].mean()
 
 
 
-
+7.Outliers & Anomalies Detection
+Determine outliers using boxplot or Z-score.
 
 
 
