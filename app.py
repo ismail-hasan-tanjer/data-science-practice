@@ -166,6 +166,12 @@ If supervised learning (such as classification or regression), then analyze the 
 sns.countplot(x='target', data=df)
 
 
+6. Grouping & Aggregation
+Extract insights by grouping by a categorical feature:
+
+df.groupby('gender')['income'].mean()
+
+
 
 
 
