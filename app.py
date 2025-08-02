@@ -374,3 +374,9 @@ One-Hot Encoding
 df = pd.get_dummies(df, columns=['marital_status'])
 
 
+
+4️⃣ Handling Skewness
+Most models expect a normal distribution. So highly skewed data is transformed:
+
+from scipy.stats import boxcox
+df['transformed'] = boxcox(df['feature'] + 1)[0]
