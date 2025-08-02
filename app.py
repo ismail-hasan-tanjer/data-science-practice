@@ -359,19 +359,18 @@ df[['age', 'salary']] = scaler.fit_transform(df[['age', 'salary']])
 
 
 3️⃣ Encoding Categorical Variables
+
+
+
 Label Encoding
 
-python
-Copy
-Edit
+
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 df['gender'] = le.fit_transform(df['gender'])
 One-Hot Encoding
 
-python
-Copy
-Edit
+
 df = pd.get_dummies(df, columns=['marital_status'])
 
 
