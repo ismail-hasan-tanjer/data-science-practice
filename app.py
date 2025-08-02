@@ -292,6 +292,13 @@ axs[0, 0].set_title('Line Plot')
 axs[0, 1].bar(categories, values)
 axs[0, 1].set_title('Bar Chart')
 
+axs[1, 0].hist(df['age'], bins=15)
+axs[1, 0].set_title('Histogram')
 
+axs[1, 1].scatter(df['height'], df['weight'])
+axs[1, 1].set_title('Scatter Plot')
+
+plt.tight_layout()
+plt.show()
 
     
