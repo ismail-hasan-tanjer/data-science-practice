@@ -327,3 +327,15 @@ Feature Engineering is the step where the performance of the model is improved b
 ✅ Reduces Underfitting / Overfitting
 ✅ Can reveal hidden patterns in data
 ✅ Good performance is achieved even with simple models
+
+
+
+1️⃣ Feature Creation
+
+Example:
+
+Create a new column by adding two columns
+df['total_income'] = df['applicant_income'] + df['coapplicant_income']
+
+New feature from date:
+df['application_month'] = pd.to_datetime(df['application_date']).dt.month
