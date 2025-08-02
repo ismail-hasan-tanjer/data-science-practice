@@ -339,3 +339,20 @@ df['total_income'] = df['applicant_income'] + df['coapplicant_income']
 
 New feature from date:
 df['application_month'] = pd.to_datetime(df['application_date']).dt.month
+
+
+2️⃣ Feature Transformation
+
+Log Transformation: To scale large numbers
+
+df['log_income'] = np.log(df['income'] + 1)
+
+Binning: To make continuous values into categories
+
+df['age_group'] = pd.cut(df['age'], bins=[0, 18, 35, 60, 100], labels=['Teen', 'Adult', 'Middle-age', 'Senior'])
+
+Normalization / Standardization:
+
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
+df[['age', 'salary']] = scaler.fit_transform(df[['age', 'salary']])
