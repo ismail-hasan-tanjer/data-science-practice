@@ -282,5 +282,16 @@ display legend with plt.legend()
 save as image with plt.savefig("filename.png")
 
 
+5. Multiple Plots in One Figure
+
+fig, axs = plt.subplots(2, 2, figsize=(10, 8))
+
+axs[0, 0].plot(df['x'], df['y'])
+axs[0, 0].set_title('Line Plot')
+
+axs[0, 1].bar(categories, values)
+axs[0, 1].set_title('Bar Chart')
+
+
 
     
