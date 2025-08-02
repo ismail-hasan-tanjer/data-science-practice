@@ -270,5 +270,17 @@ plt.title('Gender Distribution')
 plt.show()
     
     
-    
+
+
+4. Customization Options
+Matplotlib allows you to make plots highly customizable:
+
+color, linestyle, linewidth, marker, etc.
+
+display legend with plt.legend()
+
+save as image with plt.savefig("filename.png")
+
+
+
     
