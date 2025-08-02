@@ -306,4 +306,17 @@ plt.show()
 Feature Engineering is the step where the performance of the model is improved by generating new information from the data. This step is often called the "secret weapon to modeling success."
 
 
-    
+
+🎯 What is Feature Engineering?
+
+
+-It is a process where:
+
+-New features are created
+
+-Unnecessary features are removed
+
+-Existing features are transformed to make them more useful
+
+-Features are adapted for model training
+
