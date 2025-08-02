@@ -301,4 +301,9 @@ axs[1, 1].set_title('Scatter Plot')
 plt.tight_layout()
 plt.show()
 
+
+#Feature Engineering
+Feature Engineering is the step where the performance of the model is improved by generating new information from the data. This step is often called the "secret weapon to modeling success."
+
+
     
