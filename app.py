@@ -320,3 +320,10 @@ Feature Engineering is the step where the performance of the model is improved b
 
 -Features are adapted for model training
 
+
+
+🔑 Importance of Feature Engineering
+✅ Helps to increase model accuracy
+✅ Reduces Underfitting / Overfitting
+✅ Can reveal hidden patterns in data
+✅ Good performance is achieved even with simple models
