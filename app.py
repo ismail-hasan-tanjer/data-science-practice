@@ -382,9 +382,16 @@ from scipy.stats import boxcox
 df['transformed'] = boxcox(df['feature'] + 1)[0]
 
 
+
 5️⃣ Feature Selection
 Not all features are needed. Only important features are kept and the rest are eliminated:
 
 -Correlation Matrix
 -Feature Importance (RandomForest/XGBoost)
 -Recursive Feature Elimination (RFE)
+
+#coding 
+from sklearn.feature_selection import SelectKBest, f_classif
+selected = SelectKBest(score_func=f_classif, k=10).fit_transform(X, y)
+
+
