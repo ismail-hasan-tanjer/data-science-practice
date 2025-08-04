@@ -394,4 +394,9 @@ Not all features are needed. Only important features are kept and the rest are e
 from sklearn.feature_selection import SelectKBest, f_classif
 selected = SelectKBest(score_func=f_classif, k=10).fit_transform(X, y)
 
+Introduction to machine learning
+
+A high-level overview of machine learning for people with little or no knowledge of computer science and statistics. You'll learn some essential concepts, explore data, and interactively go through the machine learning lifecycle, using Python to train, save, and use a machine learning model, just like in the real world.
+
+
 
