@@ -444,3 +444,14 @@ Idea: Split data based on conditions to reduce impurity (Gini, Entropy).
 from sklearn.tree import DecisionTreeClassifier
 model = DecisionTreeClassifier()
 model.fit(X_train, y_train)
+
+
+4. Random Forest (Ensemble - Bagging)
+Use for: Classification & Regression.
+Idea: Many decision trees → average/vote results.
+
+from sklearn.ensemble import RandomForestClassifier
+model = RandomForestClassifier(n_estimators=100)
+model.fit(X_train, y_train)
+
+
