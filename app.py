@@ -454,4 +454,13 @@ from sklearn.ensemble import RandomForestClassifier
 model = RandomForestClassifier(n_estimators=100)
 model.fit(X_train, y_train)
 
+5. Gradient Boosting / XGBoost (Ensemble - Boosting)
+Use for: High accuracy tasks.
+Idea: Build trees sequentially to fix previous mistakes.
+
+from xgboost import XGBClassifier
+model = XGBClassifier()
+model.fit(X_train, y_train)
+
+
 
