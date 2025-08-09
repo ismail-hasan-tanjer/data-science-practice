@@ -400,3 +400,22 @@ A high-level overview of machine learning for people with little or no knowledge
 
 
 
+Machine Learning Algorithms Cheat Sheet
+
+1. Linear Regression (Regression)
+Use for: Predicting continuous values.
+
+
+Formula:
+
+y=β0​+β1​x1​+β2​x2​+⋯+βn​xn​
+ 
+Pros: Simple, interpretable.
+Cons: Assumes linearity.
+
+
+from sklearn.linear_model import LinearRegression
+model = LinearRegression()
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
+
