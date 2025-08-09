@@ -419,3 +419,18 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
+
+2. Logistic Regression (Classification)
+Use for: Yes/No predictions.
+
+
+Formula:
+ P(y=1)=1/1+e−(β0​+β1​x1​+…)
+ 
+Pros: Works well for binary classification.
+Cons: Not great for complex boundaries.
+
+from sklearn.linear_model import LogisticRegression
+model = LogisticRegression()
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
