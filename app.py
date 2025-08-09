@@ -434,3 +434,13 @@ from sklearn.linear_model import LogisticRegression
 model = LogisticRegression()
 model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
+
+
+3. Decision Tree
+Use for: Classification & Regression.
+Idea: Split data based on conditions to reduce impurity (Gini, Entropy).
+
+
+from sklearn.tree import DecisionTreeClassifier
+model = DecisionTreeClassifier()
+model.fit(X_train, y_train)
