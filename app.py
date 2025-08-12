@@ -462,5 +462,13 @@ from xgboost import XGBClassifier
 model = XGBClassifier()
 model.fit(X_train, y_train)
 
+6. K-Nearest Neighbors (KNN)
+Use for: Classification & Regression.
+Idea: Look at closest K points in feature space.
+
+from sklearn.neighbors import KNeighborsClassifier
+model = KNeighborsClassifier(n_neighbors=5)
+model.fit(X_train, y_train)
+
 
 
