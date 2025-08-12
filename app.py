@@ -480,3 +480,15 @@ P(A∣B)=P(B∣A)⋅P(A)​/P(B)
 from sklearn.naive_bayes import GaussianNB
 model = GaussianNB()
 model.fit(X_train, y_train)
+
+
+
+
+8. Support Vector Machine (SVM)
+Use for: Classification with margin maximization.
+
+from sklearn.svm import SVC
+model = SVC(kernel='rbf')
+model.fit(X_train, y_train)
+
+
