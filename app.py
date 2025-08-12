@@ -482,8 +482,6 @@ model = GaussianNB()
 model.fit(X_train, y_train)
 
 
-
-
 8. Support Vector Machine (SVM)
 Use for: Classification with margin maximization.
 
@@ -492,3 +490,9 @@ model = SVC(kernel='rbf')
 model.fit(X_train, y_train)
 
 
+9. K-Means Clustering (Unsupervised)
+Use for: Grouping similar data.
+
+from sklearn.cluster import KMeans
+model = KMeans(n_clusters=3)
+model.fit(X)
