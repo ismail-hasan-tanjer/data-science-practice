@@ -509,3 +509,6 @@ Task	        Metrics
 Classification  -	Accuracy, Precision, Recall, F1-score, AUC
 Regression      -	RMSE, MAE, R²
 
+from sklearn.metrics import accuracy_score, mean_squared_error
+acc = accuracy_score(y_test, y_pred)
+rmse = mean_squared_error(y_test, y_pred, squared=False)
