@@ -471,4 +471,12 @@ model = KNeighborsClassifier(n_neighbors=5)
 model.fit(X_train, y_train)
 
 
+7. Naive Bayes
+Use for: Text classification, spam detection.
 
+Formula:
+P(A∣B)=P(B∣A)⋅P(A)​/P(B)
+
+from sklearn.naive_bayes import GaussianNB
+model = GaussianNB()
+model.fit(X_train, y_train)
