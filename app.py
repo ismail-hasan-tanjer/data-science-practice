@@ -496,3 +496,10 @@ Use for: Grouping similar data.
 from sklearn.cluster import KMeans
 model = KMeans(n_clusters=3)
 model.fit(X)
+
+10. Principal Component Analysis (PCA)
+Use for: Dimensionality reduction.
+
+from sklearn.decomposition import PCA
+pca = PCA(n_components=2)
+X_pca = pca.fit_transform(X)
