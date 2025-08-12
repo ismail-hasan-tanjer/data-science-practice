@@ -503,3 +503,9 @@ Use for: Dimensionality reduction.
 from sklearn.decomposition import PCA
 pca = PCA(n_components=2)
 X_pca = pca.fit_transform(X)
+
+📊 Common Metrics
+Task	        Metrics
+Classification  -	Accuracy, Precision, Recall, F1-score, AUC
+Regression      -	RMSE, MAE, R²
+
