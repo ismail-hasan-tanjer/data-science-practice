@@ -526,3 +526,10 @@ Machine Learning = Algorithms that learn from data
 Deep Learning = Neural networks that automatically learn features from raw data
 
 
+
+🧩 How It Works (Conceptually)
+
+A Deep Neural Network (DNN) is inspired by the human brain:
+It has neurons (nodes) arranged in layers
+Each layer transforms the data and passes it to the next one
+
