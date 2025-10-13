@@ -512,3 +512,17 @@ Regression      -	RMSE, MAE, R²
 from sklearn.metrics import accuracy_score, mean_squared_error
 acc = accuracy_score(y_test, y_pred)
 rmse = mean_squared_error(y_test, y_pred, squared=False)
+
+
+
+🧠 What is Deep Learning?
+🔹 Definition:
+
+Deep Learning (DL) is a subset of Machine Learning (ML) that uses Artificial Neural Networks (ANNs) with many layers (deep networks) to learn patterns from large amounts of data — often without explicit human feature engineering.
+
+➡️ In short:
+
+Machine Learning = Algorithms that learn from data
+Deep Learning = Neural networks that automatically learn features from raw data
+
+
