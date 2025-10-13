@@ -537,3 +537,10 @@ example structure:
 
 Input Layer → Hidden Layer 1 → Hidden Layer 2 → Output Layer
 
+
+***
+
+Each “neuron” does:
+
+output = activation(weight * input + bias)
+
