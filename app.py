@@ -533,3 +533,7 @@ A Deep Neural Network (DNN) is inspired by the human brain:
 It has neurons (nodes) arranged in layers
 Each layer transforms the data and passes it to the next one
 
+example structure: 
+
+Input Layer → Hidden Layer 1 → Hidden Layer 2 → Output Layer
+
