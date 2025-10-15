@@ -544,3 +544,23 @@ Each “neuron” does:
 
 output = activation(weight * input + bias)
 
+Some Code for Practice --
+
+import pandas as pd
+
+# Load dataset
+df = pd.read_csv('-----------.csv')
+
+# Show first 5 rows
+print(df.head())
+
+# Basic info
+print(df.info())
+
+# Summary statistics
+print(df.describe())
+
+# Check for missing values
+print(df.isnull().sum())
+
+
