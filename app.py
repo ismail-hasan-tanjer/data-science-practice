@@ -546,6 +546,8 @@ output = activation(weight * input + bias)
 
 Some Code for Practice --
 
+🔹 01_data_analysis.ipynb
+
 import pandas as pd
 
 # Load dataset
@@ -562,5 +564,28 @@ print(df.describe())
 
 # Check for missing values
 print(df.isnull().sum())
+
+
+🔹 02_data_visualization.ipynb
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+df = pd.read_csv('h--------.csv')
+
+# Pairplot
+sns.pairplot(df, hue="species")
+plt.show()
+
+# Correlation heatmap
+plt.figure(figsize=(6,4))
+sns.heatmap(df.corr(numeric_only=True), annot=True, cmap='coolwarm')
+plt.show()
+
+# Boxplot
+sns.boxplot(x='species', y='sepal_length', data=df)
+plt.show()
+
 
 
