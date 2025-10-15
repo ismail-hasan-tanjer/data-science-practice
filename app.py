@@ -589,3 +589,16 @@ plt.show()
 
 
 
+🔹 03_machine_learning.ipynb
+
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, classification_report
+
+# Load data
+df = pd.read_csv('-----------.csv')
+
+# Split features and target
+X = df.drop('species', axis=1)
+y = df['species']
