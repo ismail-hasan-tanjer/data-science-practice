@@ -663,5 +663,31 @@ st.write("### 🌼 Predicted Species:", pred[0])
 06_data_cleaning.ipynb
 
 
+import pandas as pd
+import numpy as np
+
+# Sample data
+data = {
+    'Name': ['A', 'B', 'C', np.nan, 'E'],
+    'Age': [25, np.nan, 22, 28, 30],
+    'Salary': [50000, 54000, np.nan, 62000, 70000]
+}
+
+df = pd.DataFrame(data)
+print("Original Data:\n", df)
+
+
+# Fill missing values
+df['Name'] = df['Name'].fillna('Unknown')
+df['Age'] = df['Age'].fillna(df['Age'].mean())
+df['Salary'] = df['Salary'].fillna(df['Salary'].median())
+
+# Remove duplicates (if any)
+df.drop_duplicates(inplace=True)
+
+# Convert data types
+df['Age'] = df['Age'].astype(int)
+
+print("\nCleaned Data:\n", df)
 
 
