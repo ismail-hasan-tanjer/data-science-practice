@@ -691,3 +691,14 @@ df['Age'] = df['Age'].astype(int)
 print("\nCleaned Data:\n", df)
 
 
+🔹 08_linear_regression.ipynb
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+import matplotlib.pyplot as plt
+
+# Dataset
+X = np.array([1, 2, 3, 4, 5, 6]).reshape(-1, 1)
+y = np.array([2, 4, 5, 4, 5, 6])
+
