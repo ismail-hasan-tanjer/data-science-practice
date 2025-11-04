@@ -715,5 +715,16 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
 
+# Visualization
+plt.scatter(X, y, color='blue', label='Actual')
+plt.plot(X, model.predict(X), color='red', label='Regression Line')
+plt.legend()
+plt.title("Simple Linear Regression")
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.show()
+
+
+
 
 
