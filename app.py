@@ -767,6 +767,14 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.datasets import make_blobs
 
+# Generate synthetic data
+X, _ = make_blobs(n_samples=200, centers=3, random_state=42)
+
+# Train KMeans
+kmeans = KMeans(n_clusters=3, random_state=42)
+kmeans.fit(X)
+labels = kmeans.labels_
+
 
 
 
